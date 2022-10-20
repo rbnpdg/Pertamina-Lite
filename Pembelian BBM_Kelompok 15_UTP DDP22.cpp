@@ -139,7 +139,7 @@ int proses() {
 		   system ("CLS");
 	           cout << "Volume BBM\t: " << pertamax << " liter\n";
 	           cout << "Harga\t\t: Rp. " << uang << endl;
-	           cout << "Pajak\t\t: Rp. n" << pajak << endl;
+	           cout << "Pajak\t\t: Rp. " << pajak << endl;
 	           cout << "Total\t\t: Rp. " << uang + pajak << endl;
 	        	
 	           // Kode transaksi ketika menggunakan dana akan keluar
