@@ -238,7 +238,7 @@ int proses() {
 	        cout << "Masukkan metode pembayaran : ";
 			cin >> bayar;
 	 	    
-	 	    cout << endl;
+	 	cout << endl;
 	 	       
 	       	if(bayar == 1) { //jika memilih cash maka akan langsung keluar struk pembelian
 	            cout << "-----Transaksi Anda berhasil!-----\n";
@@ -283,11 +283,11 @@ int proses() {
 	} while(menu == 'Y' || menu == 'y');
 		cout << endl;
 		footer();
-}
+    }
 
 
 int main() {
-	proses();
-	getch();
-	return 0;
+    proses();
+    getch();
+    return 0;
 }
