@@ -80,7 +80,7 @@ int proses() {
 	            cout << "__________________________________\n";
 	       		
 	       		
-	        } else if( bayar == 2) { // Akan muncul nota untuk pembayaran yang disertai dengan pajak 0,2%
+	        } else if( bayar == 2) { // Akan muncul nota untuk pembayaran yang disertai dengan pajak Rp. 1000
 	            system ("CLS");
 	            cout << "==================================================\n";
 	            cout << "Volume pertalite\t: " << pertalite << " liter\n";
@@ -135,7 +135,7 @@ int proses() {
 	           cout << "Jumlah\t\t: " << pertamax << " liter\n";
 	           cout << "Total\t\t: Rp. " << uang << endl;
 	           cout << "__________________________________\n";
-	        } else if( bayar == 2) { // Akan muncul nota untuk pembayaran yang disertai dengan pajak 0,2%
+	        } else if( bayar == 2) { // Akan muncul nota untuk pembayaran yang disertai dengan pajak Rp. 1000
 		   system ("CLS");
 	           cout << "Volume BBM\t: " << pertamax << " liter\n";
 	           cout << "Harga\t\t: Rp. " << uang << endl;
@@ -190,7 +190,7 @@ int proses() {
 	               cout << "Jumlah\t\t: " << pertabo << " liter\n";
 	               cout << "Total\t\t: Rp. " << uang << endl;
 	               cout << "__________________________________\n";
-	           } else if( bayar == 2) { // Akan muncul nota untuk pembayaran yang disertai dengan pajak 0,2%
+	           } else if( bayar == 2) { // Akan muncul nota untuk pembayaran yang disertai dengan pajak Rp. 1000
 		       system ("CLS");
 	               cout << "Volume BBM\t: " << pertabo << " liter\n";
 	               cout << "Harga\t\t: Rp. " << uang << endl;
@@ -251,7 +251,7 @@ int proses() {
 	               cout << "__________________________________\n";
 	        }
 	       		
-	       		else if( bayar == 2) { // Akan muncul nota untuk pembayaran yang disertai dengan pajak 0,2%
+	       		else if( bayar == 2) { // Akan muncul nota untuk pembayaran yang disertai dengan pajak Rp. 1000
 	        	system ("CLS");
 	        	cout << "Volume BBM\t: " << dex << " liter\n";
 	        	cout << "Harga\t\t: Rp. " << uang << endl;
